@@ -43,10 +43,8 @@ https://raw.githubusercontent.com/doug-fish/cloud-center-test/master/start.sh
     - Look in the log
     - The top item in the log should be something like
 
-> START
-> TaskRunning
-> 10/31/16 14:10:00
-> ServiceValue1:AppValue1
+    START TaskRunning 10/31/16 14:10:00 ServiceValue1:AppValue1
 
 4. Update the app and service values and check result.
-> You can see different values of AppValue1 by editing the parameter in the application and re-deploying, but you can't edit the value of ServiceValue1 to ServiceValue2 and see the updated value without removing the test service from the test-app and re-adding.
+
+You can see different values of AppValue1 by editing the parameter in the application and re-deploying, but you can't edit the value of ServiceValue1 to ServiceValue2 and see the updated value without removing the test service from the test-app and re-adding.
