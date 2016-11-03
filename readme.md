@@ -7,6 +7,12 @@ in the app
 Here’s a scenario that you can try out that I hope illustrates the problem I am having.
 
 1. Create a new service
+Note: you should be able to import the service using the cliqr command line with the following command:
+
+    rerun cliqr: services-create --data service.json
+
+If that works, skip forward to step 2. If not, follow on below.
+
 Admin->Services->Add Service
 
     - Choose External Service, 

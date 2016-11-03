@@ -1,0 +1,94 @@
+{
+  "id": "67",
+  "perms": [
+    "write",
+    "read",
+    "administration",
+    "delete"
+  ],
+  "name": "testservice",
+  "displayName": "test-service",
+  "description": "",
+  "logoPath": "/assets/img/appTiers/testservice/logo.png",
+  "parentServiceId": "35",
+  "parentService": false,
+  "systemService": false,
+  "externalService": false,
+  "visible": true,
+  "bundleLocation": "",
+  "externalBundleLocation": "",
+  "costPerHour": 0,
+  "defaultImageId": 0,
+  "serviceType": "EXTERNAL",
+  "ownerUserId": "2",
+  "serviceActions": [],
+  "externalActions": [
+    {
+      "actionName": "START",
+      "actionType": "URL",
+      "actionValue": "https://raw.githubusercontent.com/doug-fish/cloud-center-test/master/start.sh"
+    }
+  ],
+  "servicePorts": [],
+  "serviceParamSpecs": [
+    {
+      "paramName": "FROM_SERVICE",
+      "displayName": "",
+      "helpText": "",
+      "type": "string",
+      "valueList": null,
+      "defaultValue": "ServiceValue1",
+      "userVisible": false,
+      "userEditable": false,
+      "systemParam": true,
+      "exampleValue": null,
+      "dataUnit": null,
+      "optional": false,
+      "valueConstraint": {
+        "minValue": 0,
+        "maxValue": 0,
+        "maxLength": 255,
+        "regex": null,
+        "allowSpaces": true,
+        "sizeValue": 0,
+        "step": 0,
+        "calloutWorkflowName": null
+      },
+      "scope": null,
+      "webserviceListParams": null,
+      "collectionList": []
+    },
+    {
+      "paramName": "FROM_APP",
+      "displayName": "",
+      "helpText": "",
+      "type": "string",
+      "valueList": null,
+      "defaultValue": "AppValue1",
+      "userVisible": true,
+      "userEditable": true,
+      "systemParam": true,
+      "exampleValue": null,
+      "dataUnit": null,
+      "optional": false,
+      "valueConstraint": {
+        "minValue": 0,
+        "maxValue": 0,
+        "maxLength": 255,
+        "regex": null,
+        "allowSpaces": true,
+        "sizeValue": 0,
+        "step": 0,
+        "calloutWorkflowName": null
+      },
+      "scope": null,
+      "webserviceListParams": null,
+      "collectionList": []
+    }
+  ],
+  "egressRestrictions": [],
+  "childServices": [],
+  "images": [],
+  "repositories": []
+}
+
